@@ -1,6 +1,6 @@
 /* General styles */
-/* reset css */
 
+/* reset css */
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +23,7 @@ main{
     margin: 40px auto;
     background-color: white;
     border-radius: 10px;
-    height: 400px;
+    height: 800px;
 }
 
 hr{
@@ -33,12 +33,15 @@ hr{
     background-color: rgba(165, 165, 165, 0.411);
 }
 
-/* Utilities */
+li{
+    font-size: 20px;
+}
 
+/* Utilities */
+        /* header */
 .logo{
     vertical-align: middle;
 }
-
 
 .title{
     display: inline-block;
@@ -46,6 +49,7 @@ hr{
     vertical-align: middle;
 }
 
+        /* navbar */
 .btn_add_task{
     margin: 20px 0px 10px 40px;
     background-color: #00bbf9;
@@ -59,27 +63,42 @@ hr{
     border: rgba(165, 165, 165, 0.411);
 }
 
-
-
-
 .btn_style{
     padding: 5px 10px;
     border-radius: 5px;
     border: 2px solid;
-    /* border: solid 1px; */
+}
+
+        /* 'dropdown' list of things*/
+.list_sec{
+    margin: 30px 0 0 40px;
+}
+
+.list_title{
+    padding-bottom: 10px;
 }
 
 
+.list{
+    list-style-type: none;
+    padding-left: 10px;
+}
 
+/* Symbols */
 
+.check{
+    padding: 1px;
+    border: 1px solid #80ed99;
+    border-radius: 50%;
+    color: #80ed99;
+}
 
-
-
-
-
-
-
-
+.cross{
+    padding: 1px;
+    border: 1px solid #ef3c2d;
+    border-radius: 50%;
+    color: #ef3c2d;
+}
 
 
 
