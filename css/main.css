@@ -35,6 +35,7 @@ hr{
 
 li{
     font-size: 20px;
+    padding-bottom: 20px;
 }
 
 /* Utilities */
@@ -81,7 +82,7 @@ li{
 
 .list{
     list-style-type: none;
-    padding-left: 10px;
+    padding: 0 0 30px 10px;
 }
 
 /* Symbols */
@@ -98,6 +99,40 @@ li{
     border: 1px solid #ef3c2d;
     border-radius: 50%;
     color: #ef3c2d;
+}
+
+/* Labels styles */
+
+.label_style{
+    padding: 7px 15px;
+    border: 1px solid;
+    border-radius: 15px;
+    font-size: 15px;
+    color: white;
+}
+
+.editorial{
+    background-color: #00bbf9;
+}
+
+.goals{
+    background-color: #e4c1f9;
+}
+
+.recruiting{
+    background-color: #38b000;
+}
+
+.mobile{
+    background-color: #ff9500;
+}
+
+.website{
+    background-color: #ff99c8;
+}
+
+.sales{
+    background-color: #70e000;
 }
 
 
