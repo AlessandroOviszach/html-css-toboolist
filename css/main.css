@@ -7,3 +7,60 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+/* Tags */
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+header{
+    padding: 20px 30px;
+    background-color: white;
+}
+
+
+main{
+    width: 70%;
+    margin: 40px auto;
+
+}
+
+
+
+
+
+/* Utilities */
+
+.logo{
+    vertical-align: middle;
+}
+
+
+.title{
+    display: inline-block;
+    font-size: 45px;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
