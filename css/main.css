@@ -18,16 +18,20 @@ header{
     background-color: white;
 }
 
-
 main{
     width: 70%;
     margin: 40px auto;
-
+    background-color: white;
+    border-radius: 10px;
+    height: 400px;
 }
 
-
-
-
+hr{
+    height: 2px;
+    border-width: 0px;
+    color: rgba(165, 165, 165, 0.411);
+    background-color: rgba(165, 165, 165, 0.411);
+}
 
 /* Utilities */
 
@@ -42,7 +46,28 @@ main{
     vertical-align: middle;
 }
 
+.btn_add_task{
+    margin: 20px 0px 10px 40px;
+    background-color: #00bbf9;
+    border: #00bbf9;
+    color: white;
+}
 
+.btn_add_section{
+    background-color: white;
+    color: rgba(165, 165, 165, 0.411);
+    border: rgba(165, 165, 165, 0.411);
+}
+
+
+
+
+.btn_style{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid;
+    /* border: solid 1px; */
+}
 
 
 
